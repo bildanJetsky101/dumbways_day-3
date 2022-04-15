@@ -25,6 +25,17 @@ nav div{
 nav .left-side{
     /* background-color: blue; */
     padding-left: 90px;
+    font-weight: 700;
+}
+
+nav .left-side a {
+    font-weight: 700;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(230, 91, 67);
+    font-weight: 700;
 }
 
 nav .right-side{
@@ -55,11 +66,12 @@ nav .right-side a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(3, 3, 3);
-    color: rgb(255, 255, 255);
+    background-color: rgb(252, 252, 252);
+    color: rgb(8, 8, 8);
     border-radius: 20px;
     width: 110px;
-    height: 40px;
+    border: 3px solid black;
+    height: 30px;
     text-align: center;
     font-size: 13px;
 }
@@ -82,7 +94,7 @@ form{
 .column {
     border: none;
     height: 33px;
-    width: 400px;
+    width: 430px;
     border-radius: 4px;
     box-shadow: 0px 1px 20px rgb(184, 184, 184);
 }

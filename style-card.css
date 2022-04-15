@@ -90,7 +90,7 @@ nav .right-side a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 60px 50px;
+    padding: 50px 50px;
     /* background-color: rgb(255, 116, 92); */
     margin-top: 0px;
 }
@@ -149,7 +149,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 25px;
     height: auto;
 }
 

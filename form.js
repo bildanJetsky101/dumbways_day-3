@@ -7,8 +7,8 @@ function sendData(e){
     const subject = document.getElementById('subject').value
     const message = document.getElementById("message").value
     
-    if(name == ""){
-        return alert("Name cannot be empty")
+    if(name == "" || email == "" || phone == "" || subject =="" || message ==""){
+        return alert("Make sure you fill all the sections below")
     }
 
     console.log(name)

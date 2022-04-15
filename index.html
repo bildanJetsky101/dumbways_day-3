@@ -1,67 +1,49 @@
 <html>
-    <body>
-        <head>
-            <title>card</title>
-            <link rel="stylesheet" href="style-card.css">
-            <link rel="stylesheet" href="css/all.min.css">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap" rel="stylesheet">
-        </head>
-        <nav>
-            <div class="left-side">
-                <a href="index.html" class="logo">dumbways.id</a>
-                <ol >
-                    <li><a style="font-weight: 700;"href="">Home</a></li>
-                    <li><a href="" style="border-bottom: 2px solid rgb(224, 62, 62);font-weight:700;">Profile</a></li>
-                </ol>
-            </div>
-            <div class="right-side">
-                <a href="" class="btn-contact">Contact Me</a>
-            </div>
-        </nav>
-<div class="card-container">
-    <div class="card">
-        <div class="text">
-            <h2>hi, welcome to my hut</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quo enim commodi provident voluptatem veritatis magni, harum optio modi earum, tempora explicabo inventore! Quidem amet molestiae ipsum incidunt sed dolorum doloribus, ex ullam exercitationem soluta rerum expedita optio voluptas quam sit officiis recusandae, quaerat nulla. Error sit provident tempore quisquam sunt facilis voluptatibus cupiditate dolorem?</p>
-            <div class="info">
-                <div class="info-line">
-                    <a href=""class="button">Contact</a>
-                    
-                    <p>Download CV</p>
-                    <a href=""><i class="fa-solid fa-download"></i></a>
-                </div>
-                <div class="social">
-                    <ul>
-                        <li> <a href=""><i class="fa-brands fa-2x fa-github"></i></a></li>
-                        <li> <a href=""><i class="fa-brands fa-2x fa-instagram-square"></i></a></li>
-                        <li> <a href=""><i class="fa-brands fa-2x fa-facebook"></i></a></li>
-                        <li> <a href=""><i class="fa-brands fa-2x fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="image">
-            <div class="image-wrap">
-                <img src="asset/man.jpg" alt="">
-                <div class="name">
-                    <h2>Bildan Jauhary</h2>
-                    <p class="job">Fullstack Developer</p>
-                </div>
-            </div>
-        </div>
+<body>
+<head>
+    <title> </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400&display=swap" rel="stylesheet">
+</head>
+<nav>
+    <div class="left-side">
+        <a href="index.html" class="logo">dumbways.id</a>
+        <ol>
+            <li><a href="">Home</a></li>
+            <li><a href="">Profile</a></li>
+        </ol>
+    </div>
+    <div class="right-side">
+        <a href="" class="btn-contact">Contact Me</a>
+    </div>
+</nav>
+<div class="container">
+    <div class="form">
+        <h2>Get In Touch</h2>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="name" class="column">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" name="Email" id="email" class="column">
+            <br>
+            <label for="phone-number">Phone Number</label>
+            <input type="tel" name="phone-number" id="phone-number" class="column">
+            <br>
+            <label for="option">Subject</label>
+            <select name="option" id="subject" class="column">
+                <option value="Fullstack">Fullstack</option>
+                <option value="Dev Ops">Devs Ops</option>
+            </select>
+            <br>
+            <label for="message">Your Message</label>
+            <textarea name="" id="message" cols="30" rows="10" class="column-area"></textarea>
+            <button type="button" onclick="sendData(event)" class="btn-submit">Submit</button>
+        </form>
     </div>
 </div>
 </body>
-<script>
-
-
-
-
-
-
-    
-</script>
+<script src="form.js"></script>
 </html>
