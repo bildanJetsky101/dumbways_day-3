@@ -25,6 +25,12 @@ nav .left-side{
     padding-left: 90px;
 }
 
+.logo{
+    text-decoration: none;
+    color: rgb(204, 55, 44);
+    font-weight: 700;
+}
+
 nav .right-side{
     /* background-color: red; */
     justify-content: flex-end;
@@ -84,7 +90,7 @@ nav .right-side a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 40px 50px;
+    padding: 60px 50px;
     /* background-color: rgb(255, 116, 92); */
     margin-top: 0px;
 }
@@ -101,7 +107,7 @@ nav .right-side a {
     width: 80%;
     height: 80%;
     background-color: white;
-    box-shadow: 0px 1px 10px rgb(141, 141, 141);
+    box-shadow: 0px 1px 10px rgb(211, 211, 211);
 }
 .text p {
     text-align: justify;
