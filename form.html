@@ -1,0 +1,49 @@
+<html>
+<body>
+<head>
+    <title> </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400&display=swap" rel="stylesheet">
+</head>
+<nav>
+    <div class="left-side">
+        <a href="index.html">LOGO</a>
+        <ol>
+            <li><a href="">Home</a></li>
+            <li><a href="">blog</a></li>
+        </ol>
+    </div>
+    <div class="right-side">
+        <a href="" class="btn-contact">Contact Me</a>
+    </div>
+</nav>
+<div class="container">
+    <div class="form">
+        <h2>Get In Touch</h2>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="name" class="column">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" name="Email" id="email" class="column">
+            <br>
+            <label for="phone-number">Phone Number</label>
+            <input type="tel" name="phone-number" id="phone-number" class="column">
+            <br>
+            <label for="option">Subject</label>
+            <select name="option" id="subject" class="column">
+                <option value="Fullstack">Fullstack</option>
+                <option value="Dev Ops">Devs Ops</option>
+            </select>
+            <br>
+            <label for="message">Your Message</label>
+            <textarea name="" id="message" cols="30" rows="10" class="column-area"></textarea>
+            <button type="button" onclick="sendData(event)" class="btn-submit">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+<script src="form.js"></script>
+</html>
